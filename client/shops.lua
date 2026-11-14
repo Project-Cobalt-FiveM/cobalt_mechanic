@@ -108,7 +108,7 @@ for id, shop in pairs(config.shops) do
 
                         return job?.name == shop.job and job.isboss == true
                     end,
-                    onSelect = function() management:OpenMenu('org') end,
+                    onSelect = function() management:OpenMenu('job') end,
                 },
             },
         })
